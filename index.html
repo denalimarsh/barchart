@@ -18,11 +18,17 @@
     <![endif]-->
   </head>
   <body>
-    <h1>text updated from desktop</h1>
+    <h1>d3test</h1>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+
+    <script type="text/javascript">
+      d3.select("body").append("p").text("New paragraph added with d3!");
+    </script>
+
   </body>
 </html>
